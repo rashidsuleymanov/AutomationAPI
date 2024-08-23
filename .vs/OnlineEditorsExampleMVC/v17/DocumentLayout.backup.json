@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Workspace\\Rashid\\ONLYOFFICE Samples\\document-server-integration-master\\web\\documentserver-example\\csharp-mvc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2C16047-E658-444A-A45D-23CEE79CB8F3}|OnlineEditorsExampleMVC.csproj|d:\\workspace\\rashid\\onlyoffice samples\\document-server-integration-master\\web\\documentserver-example\\csharp-mvc\\views\\home\\editor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D2C16047-E658-444A-A45D-23CEE79CB8F3}|OnlineEditorsExampleMVC.csproj|solutionrelative:views\\home\\editor.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2C16047-E658-444A-A45D-23CEE79CB8F3}|OnlineEditorsExampleMVC.csproj|D:\\Workspace\\Rashid\\ONLYOFFICE Samples\\document-server-integration-master\\web\\documentserver-example\\csharp-mvc\\models\\filemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2C16047-E658-444A-A45D-23CEE79CB8F3}|OnlineEditorsExampleMVC.csproj|solutionrelative:models\\filemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|OnlineEditorsExampleMVC||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2C16047-E658-444A-A45D-23CEE79CB8F3}|OnlineEditorsExampleMVC.csproj|D:\\Workspace\\Rashid\\ONLYOFFICE Samples\\document-server-integration-master\\web\\documentserver-example\\csharp-mvc\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D2C16047-E658-444A-A45D-23CEE79CB8F3}|OnlineEditorsExampleMVC.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2C16047-E658-444A-A45D-23CEE79CB8F3}|OnlineEditorsExampleMVC.csproj|D:\\Workspace\\Rashid\\ONLYOFFICE Samples\\document-server-integration-master\\web\\documentserver-example\\csharp-mvc\\web.appsettings.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D2C16047-E658-444A-A45D-23CEE79CB8F3}|OnlineEditorsExampleMVC.csproj|solutionrelative:web.appsettings.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2C16047-E658-444A-A45D-23CEE79CB8F3}|OnlineEditorsExampleMVC.csproj|D:\\Workspace\\Rashid\\ONLYOFFICE Samples\\document-server-integration-master\\web\\documentserver-example\\csharp-mvc\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D2C16047-E658-444A-A45D-23CEE79CB8F3}|OnlineEditorsExampleMVC.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2C16047-E658-444A-A45D-23CEE79CB8F3}|OnlineEditorsExampleMVC.csproj|D:\\Workspace\\Rashid\\ONLYOFFICE Samples\\document-server-integration-master\\web\\documentserver-example\\csharp-mvc\\views\\home\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D2C16047-E658-444A-A45D-23CEE79CB8F3}|OnlineEditorsExampleMVC.csproj|solutionrelative:views\\home\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2C16047-E658-444A-A45D-23CEE79CB8F3}|OnlineEditorsExampleMVC.csproj|d:\\workspace\\rashid\\onlyoffice samples\\document-server-integration-master\\web\\documentserver-example\\csharp-mvc\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|909d16b3-c8e8-43d1-a2b8-26ea0d4b6b57"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Editor.aspx",
+              "DocumentMoniker": "D:\\Workspace\\Rashid\\ONLYOFFICE Samples\\document-server-integration-master\\web\\documentserver-example\\csharp-mvc\\Views\\Home\\Editor.aspx",
+              "RelativeDocumentMoniker": "Views\\Home\\Editor.aspx",
+              "ToolTip": "D:\\Workspace\\Rashid\\ONLYOFFICE Samples\\document-server-integration-master\\web\\documentserver-example\\csharp-mvc\\Views\\Home\\Editor.aspx*",
+              "RelativeToolTip": "Views\\Home\\Editor.aspx*",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-22T13:27:50.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "packages.config",
+              "DocumentMoniker": "D:\\Workspace\\Rashid\\ONLYOFFICE Samples\\document-server-integration-master\\web\\documentserver-example\\csharp-mvc\\packages.config",
+              "RelativeDocumentMoniker": "packages.config",
+              "ToolTip": "D:\\Workspace\\Rashid\\ONLYOFFICE Samples\\document-server-integration-master\\web\\documentserver-example\\csharp-mvc\\packages.config",
+              "RelativeToolTip": "packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-21T06:58:59.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileModel.cs",
+              "DocumentMoniker": "D:\\Workspace\\Rashid\\ONLYOFFICE Samples\\document-server-integration-master\\web\\documentserver-example\\csharp-mvc\\Models\\FileModel.cs",
+              "RelativeDocumentMoniker": "Models\\FileModel.cs",
+              "ToolTip": "D:\\Workspace\\Rashid\\ONLYOFFICE Samples\\document-server-integration-master\\web\\documentserver-example\\csharp-mvc\\Models\\FileModel.cs",
+              "RelativeToolTip": "Models\\FileModel.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAN0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T05:38:20.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "web.appsettings.config",
+              "DocumentMoniker": "D:\\Workspace\\Rashid\\ONLYOFFICE Samples\\document-server-integration-master\\web\\documentserver-example\\csharp-mvc\\web.appsettings.config",
+              "RelativeDocumentMoniker": "web.appsettings.config",
+              "ToolTip": "D:\\Workspace\\Rashid\\ONLYOFFICE Samples\\document-server-integration-master\\web\\documentserver-example\\csharp-mvc\\web.appsettings.config",
+              "RelativeToolTip": "web.appsettings.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-06T06:08:29.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\Workspace\\Rashid\\ONLYOFFICE Samples\\document-server-integration-master\\web\\documentserver-example\\csharp-mvc\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "D:\\Workspace\\Rashid\\ONLYOFFICE Samples\\document-server-integration-master\\web\\documentserver-example\\csharp-mvc\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-06T06:08:23.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.aspx",
+              "DocumentMoniker": "D:\\Workspace\\Rashid\\ONLYOFFICE Samples\\document-server-integration-master\\web\\documentserver-example\\csharp-mvc\\Views\\Home\\Index.aspx",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.aspx",
+              "ToolTip": "D:\\Workspace\\Rashid\\ONLYOFFICE Samples\\document-server-integration-master\\web\\documentserver-example\\csharp-mvc\\Views\\Home\\Index.aspx",
+              "RelativeToolTip": "Views\\Home\\Index.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-06T06:08:10.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OnlineEditorsExampleMVC",
+              "DocumentMoniker": "D:\\Workspace\\Rashid\\ONLYOFFICE Samples\\document-server-integration-master\\web\\documentserver-example\\csharp-mvc\\OnlineEditorsExampleMVC.csproj",
+              "RelativeDocumentMoniker": "OnlineEditorsExampleMVC.csproj",
+              "ToolTip": "D:\\Workspace\\Rashid\\ONLYOFFICE Samples\\document-server-integration-master\\web\\documentserver-example\\csharp-mvc\\OnlineEditorsExampleMVC.csproj",
+              "RelativeToolTip": "OnlineEditorsExampleMVC.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-06T06:07:41.023Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
