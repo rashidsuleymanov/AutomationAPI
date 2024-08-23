@@ -90,44 +90,6 @@
             });
         };
 
-        //var onDocumentReady = function () {
-        //    var connector = docEditor.createConnector();
-        //    console.log("onDocumentReady");
-
-        //    var results = {
-        //        "Serial": "000011",
-        //        "Photo": null,
-        //        "Company Name": "IT Dream",
-        //        "Date": "08.08.2024",
-        //        "Recipient": "John Smith",
-        //        "Qty1": "10",
-        //        "Description1": "Computers",
-        //        "Qty2": "5",
-        //        "Description2": "Monitors",
-        //        "Qty3": "8",
-        //        "Description3": "Printers"
-        //    };
-
-        //    connector.executeMethod("GetAllForms", null, function (data) {
-        //        if (!data || data.length === 0) {
-        //            console.log(JSON.stringify(results)); // Если нет данных, сразу выводим пустой результат
-        //            return;
-        //        }
-
-        //        for (let i = 0; i < data.length; i++) {
-        //            // Для каждого элемента данных выполняем запрос
-        //            // data[i].Tag должен соответствовать ключу в results
-        //            let value = results[data[i].Tag];
-        //            if (value !== undefined) { // Проверка, чтобы избежать ошибок, если ключ не найден
-        //                connector.executeMethod("SetFormValue", [data[i]["InternalId"], value]);
-        //            } else {
-        //                console.warn(`No value found for tag: ${data[i].Tag}`);
-        //            }
-        //        }
-        //    });
-        //};
-
-
         var onDocumentReady = function () {
             var connector = docEditor.createConnector();
             console.log("onDocumentReady");
@@ -146,35 +108,24 @@
                 "Description3": "Printers"
             };
 
+            connector.executeMethod("GetAllForms", null, function (data) {
+                if (!data || data.length === 0) {
+                    console.log(JSON.stringify(results)); // Если нет данных, сразу выводим пустой результат
+                    return;
+                }
 
-            connector.callCommand(function () {
-                var oDocument = Api.GetDocument();
-                console.log("OpenFile")
-                var data = {
-                    "Photo": "https://api.onlyoffice.com/content/img/docbuilder/examples/blue_cloud.png",
-                    "Serial": "A1345",
-                    "Company Name": "Blue Cloud Corporation",
-                    "Date": "25.12.2023",
-                    "Recipient": "Space Corporation",
-                    "Qty1": "25",
-                    "Description1": "Frame",
-                    "Qty2": "2",
-                    "Description2": "Stack",
-                    "Qty3": "34",
-                    "Description3": "Shifter"
-                };
-
-                var aForms = oDocument.GetAllForms()
-                aForms.forEach(form => {
-                    if (form.GetFormType() == "textForm") form.SetText(data[form.GetFormKey()])
-                    if (form.GetFormType() == "pictureForm") form.SetImage(data[form.GetFormKey()])
-                });
-                console.log("FillFile")
-                Api.Save()
-                console.log("Saving")
+                for (let i = 0; i < data.length; i++) {
+                    // Для каждого элемента данных выполняем запрос
+                    // data[i].Tag должен соответствовать ключу в results
+                    let value = results[data[i].Tag];
+                    if (value !== undefined) { // Проверка, чтобы избежать ошибок, если ключ не найден
+                        connector.executeMethod("SetFormValue", [data[i]["InternalId"], value]);
+                    } else {
+                        console.warn(`No value found for tag: ${data[i].Tag}`);
+                    }
+                }
             });
-                
-        }
+        };
 
         // the document is modified
         var onDocumentStateChange = function (event) {
